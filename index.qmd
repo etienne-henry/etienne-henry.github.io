@@ -3,8 +3,10 @@ title: "Etienne Henry"
 
 image: figures/arrowstork.png
 
+resources: files/Henry_CV_2024.pdf
+
 about: 
-  template: jolla
+  template: trestles
   image-shape: round
   image-width: 15em
   links: 
@@ -16,7 +18,7 @@ about:
     href: https://github.com/etienne-henry
   - text: resume
     icon: file-text
-    href: files/resume.pdf
+    href: files/Henry_CV_2024.pdf
 ---
 
 Coucou Marion!
