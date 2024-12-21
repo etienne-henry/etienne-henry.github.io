@@ -1,11 +1,22 @@
 ---
-title: "etienne-henry.github.io"
+title: "Etienne Henry"
+
+image: figures/arrowstork.png
+
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 15em
+  links: 
+  - text: Email
+    icon: envelope
+    href: mailto:eitenne.henry@cefe.cnrs.fr
+  - text: GitHub
+    icon: github
+    href: https://github.com/etienne-henry
+  - text: resume
+    icon: file-text
+    href: files/resume.pdf
 ---
 
 Coucou Marion!
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
