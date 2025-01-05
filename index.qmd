@@ -1,9 +1,13 @@
 ---
 title: "Etienne Henry"
 
-image: figures/arrowstork.png
+image: figures/wild_challenge.jpg
 
 resources: files/Henry_CV_2024.pdf
+
+theme: #Sandstone #https://bootswatch.com/
+  light: flatly
+  dark: darkly
 
 about: 
   template: trestles
@@ -16,9 +20,19 @@ about:
   - text: GitHub
     icon: github
     href: https://github.com/etienne-henry
-  - text: resume
+  - text: Résumé
     icon: file-text
     href: files/Henry_CV_2024.pdf
 ---
 
-Coucou Marion!
+#### PhD candidate - Migratory landbirds conservation {style="text-align: start"}
+
+My work focuses on the conservation of African-Eurasian migratory landbirds. The persistent decline in migratory bird populations observed over recent decades highlights the urgent need to improve our scientific understanding of the factors driving this trend. This understanding is essential support international conservation policies at national, European, and inter-continental levels. My research employs a diverse range of methodologies, including:
+
+-   Analyzing **tracking data** from terrestrial long-distance migrants, such as storks, raptors, and landbirds.
+
+-   **Modelling** recent changes in migratory bird communities and projecting future trends in the context of climate change.
+
+-   Use of empirical data from **ringing datasets** to better understand migratory bird population dynamics.
+
+###### Centre d'Ecologie Fonctionnelle et Evolutive Montpellier, France
