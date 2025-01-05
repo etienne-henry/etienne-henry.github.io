@@ -1,54 +1,65 @@
 ---
 title: "Teaching"
+
+theme: #Sandstone #https://bootswatch.com/
+  light: flatly
+  dark: darkly
 ---
 
 This facet holds special significance for me as I seek to balance my career between teaching and research.
 
--   Behaviour ecology
+### Behavioral ecology
 
--   Ecosystem functionning
+*1st and 2nd year bachelor students*
 
--   Evolution, *2nd year bachelor students*
+Practical classes: \
+ - Use of software BORIS and hierarchy calculation\
+Lecture:\
+- Social behaviour
 
-Introduction to evolutionary concepts
+### Ecosystem functioning
 
-```         
-- Micro-evolution
-- Macro evolution
-- Quantitative genetics
-```
+*3rd year bachelor students*
 
--   Environmental management, *2nd year master students*
+Practical classes: - Primary production, decomposition of organic matter, herbivory
 
-```         
-- Projects conception, budgetization, presentation in front of territorial actors
-```
+### Evolution
 
-Agrégation preparatory classes, *2nd year master students*
+*2nd year bachelor students*
 
-```         
-- Oral exam preparation: Living organisms in the soil
-    
-```
+Tutorial classes
 
--   Biodiversity monitoring, *conservationist, 1st yr master students*
+Introduction to evolutionary concepts:\
+- **Micro-evolution**: heritability, forces of evolution (haploids and diploids)\
+- **Macro evolution**: phylogeny and evolution (gradualism vs punctuated equilibrium), speciation (allopatric, sympatric, reproductive isolation), human evolution (brain size & lactose tolerance)
 
-```         
-- Field methods & protocol to monitor mammals, small mammals, birds
-- Quantitative estimates
-- Data analysis
-```
+### Environmental management
 
--   Tutoring:
+*2nd year master students*
 
-```         
-- Preparation for high school national examination in Physics and Mathematics
-  
-```
+Projects conception, budgetization, presentation in front of territorial actors
 
--   Interventions in school
+### Agrégation preparatory classes
 
-```         
-- Presentation of research project, curses 
-- Teaching to students the tidal ecosystem
-```
+*2nd year master students*
+
+Oral exam preparation: *Living organisms in the soil*
+
+### Biodiversity monitoring
+
+*Professional conservationists, 1st year master students*
+
+-   Field methods & protocol to monitor mammals, small mammals, birds
+
+-   Quantitative estimates
+
+-   Data analysis (ANOSIM)
+
+
+### Interventions in school & Tutoring
+
+-   Preparation for high school national examination (Baccalauréat) in Physics and Mathematics
+
+-   Presentation of research project, curses
+
+-   Teaching the tidal ecosystem

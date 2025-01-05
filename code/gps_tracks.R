@@ -1,29 +1,33 @@
-install.packages("move2")
+# Packages 
 
 require(units)
 require(dplyr)
 require(ggplot2)
 require(move2)
 require(rnaturalearth)
+require(leaflet)
+require(htmlwidgets)
 
-movebank_store_credentials("etienne_hy", "Miliora_1998!")
-track <- movebank_download_study("Eastern flyway spring migration of adult white storks (data from Rotics et al. 2018)",
+# Set credentials
+move2::movebank_store_credentials("etienne_hy", "Miliora_1998!")
+
+
+#' Download white storck tracking data from the following study: 
+#' "Rotics S, Kaatz M, Turjeman SF, Zurell D, Wikelski M, Sapir N, Eggers U, Fiedler W, Jeltsch F, Nathan R. 
+#' 2018. Data from: Early arrival at breeding grounds: causes, costs and a trade-off with overwintering 
+#' latitude. Movebank Data Repository. https://doi.org/10.5441/001/1.v8d24552"
+track <- move2::movebank_download_study("Eastern flyway spring migration of adult white storks (data from Rotics et al. 2018)",
                                  sensor_type_id = "gps",
                                  'license-md5'='59460dc473398b1edfa1abc423b0865d')
-track
-
+# Filter for X individuals
 track1 <- track %>%
   dplyr::filter(individual_local_identifier %in% 
                   c(levels(track$individual_local_identifier)[1],
                     levels(track$individual_local_identifier)[2],
                     levels(track$individual_local_identifier)[3]))
 
-
+# Drop levels 
 track1$individual_local_identifier <- droplevels(track1$individual_local_identifier)
-
-
-
-track_l <- move2::mt_track_lines(track1)
 
 track_sf <- sf::st_as_sf(track1)
 
@@ -47,7 +51,6 @@ track_sf_lines <- track_sf_r %>%
   summarise(geometry = sf::st_combine(geometry)) %>%
   sf::st_cast("LINESTRING")
 
-library(leaflet)
 
 pal <- leaflet::colorFactor(
   palette = "Dark2", 
@@ -81,10 +84,6 @@ map_track <- leaflet::leaflet(track_sf_r) %>%
     opacity = 1
   )
 
-map_track
-
-
+# Save leaflet map 
 htmlwidgets::saveWidget(map_track, file="figures/map_track.html")
 
-# Citation
-#"Rotics S, Kaatz M, Turjeman SF, Zurell D, Wikelski M, Sapir N, Eggers U, Fiedler W, Jeltsch F, Nathan R. 2018. Data from: Early arrival at breeding grounds: causes, costs and a trade-off with overwintering latitude. Movebank Data Repository. https://doi.org/10.5441/001/1.v8d24552"

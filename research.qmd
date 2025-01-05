@@ -1,8 +1,18 @@
 ---
 title: "Research"
+
+theme: #Sandstone #https://bootswatch.com/
+  light: flatly
+  dark: darkly
+
 ---
 
 ## PhD outline
+
+**Supervisors**: [Ana Rodrigues](https://www.cefe.cnrs.fr/fr/recherche/bc/dpb/862-c/228-ana-rodrigues) (CEFE - CNRS, Montpellier) & [Inês Catry](https://cibio.up.pt/en/people/details/ines-catry/) (CIBIO - University of Porto).\
+Project in collaboration with [BirdLife International](https://www.birdlife.org/).
+
+The project results from collaboration between the CEFE, the [CIBIO](https://cibio.up.pt/en/) and [BirdLife International](https://www.birdlife.org/).
 
 My PhD research project aims to address the 3 following questions:
 
@@ -13,11 +23,25 @@ Advances in tracking technologies allowed unprecedented insights on the annual c
 
 This PhD project draws on a dataset covering the movements of thousands of individuals spanning 45 African-Eurasian migratory species. This dataset is the result of the collaboration of more than 172 contributors and the invaluable work of **João Guilherme**, who compiled and standardised all the different tracking data @fig-track.
 
-::: {#fig-track width="80%" height="5in"}
-![](figures/map_track.html)
+:::: {layout="[ 40, 60 ]"}
 
-Track of 3 white storks
+::: {#first-column}
+```r
+# Some code
+print("Hello World")
+```
+
+Some text that should be displayed below the code.
 :::
+
+::: {#second-column #fig-track}
+![](figures/map_track.html){height=5in}
+
+Track of 3 white storks during their annual migration, color = individuals, points randomly sub-sampled to 1 point per day to ease computation. Source: [], code to plot the map available on [Github](https://www.birdlife.org/) 
+:::
+
+::::
+
 
 2.  How are migration patterns along the African-Eurasian flyway predicted to change in response to ongoing threats (climate change, land-use change...)?
 

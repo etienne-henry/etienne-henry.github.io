@@ -25,7 +25,7 @@ about:
     href: files/Henry_CV_2024.pdf
 ---
 
-#### PhD candidate - Migratory landbirds conservation {style="text-align: start"}
+#### Migratory landbirds conservation PhD candidate {style="text-align: start"}
 
 My work focuses on the conservation of African-Eurasian migratory landbirds. The persistent decline in migratory bird populations observed over recent decades highlights the urgent need to improve our scientific understanding of the factors driving this trend. This understanding is essential support international conservation policies at national, European, and inter-continental levels. My research employs a diverse range of methodologies, including:
 
@@ -35,4 +35,5 @@ My work focuses on the conservation of African-Eurasian migratory landbirds. The
 
 -   Use of empirical data from **ringing datasets** to better understand migratory bird population dynamics.
 
-###### Centre d'Ecologie Fonctionnelle et Evolutive Montpellier, France
+Centre d'Ecologie Fonctionnelle et Evolutive\
+Montpellier, France
