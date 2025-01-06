@@ -26,17 +26,21 @@ track1 <- track %>%
                     levels(track$individual_local_identifier)[2],
                     levels(track$individual_local_identifier)[3]))
 
-# Drop levels 
+# Drop unselected levels (individuals) 
 track1$individual_local_identifier <- droplevels(track1$individual_local_identifier)
 
+# Set as sf
 track_sf <- sf::st_as_sf(track1)
 
-
+# Separate between date and time of the point
 track_sf <- tidyr::separate(track_sf, col=timestamp, into=c('dt', 'time'), sep=' ', remove = FALSE)
 track_sf$dt <- lubridate::as_date(track_sf$dt)
 
 track_sf$year <- lubridate::year(track_sf$dt)
+track_sf$month <- lubridate::month(track_sf$dt)
 
+
+# Function to randomly select 1 point per day 
 select_r <- by(track_sf, list(id = track_sf$dt), function(x){
   idx <- sample(seq(nrow(x)), size = 1)
   x[idx, ]
@@ -44,7 +48,7 @@ select_r <- by(track_sf, list(id = track_sf$dt), function(x){
 
 track_sf_r <- do.call("rbind", select_r)
 
-
+# Draw lines between points
 track_sf_lines <- track_sf_r %>%
   group_by(individual_local_identifier,year) %>%
   arrange(dt) %>%

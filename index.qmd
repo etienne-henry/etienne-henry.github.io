@@ -8,6 +8,8 @@ resources: files/Henry_CV_2024.pdf
 theme: #Sandstone #https://bootswatch.com/
   light: flatly
   dark: darkly
+  
+css: styles.css
 
 about: 
   template: trestles
@@ -25,15 +27,16 @@ about:
     href: files/Henry_CV_2024.pdf
 ---
 
-#### Migratory landbirds conservation PhD candidate {style="text-align: start"}
+#### Migratory landbirds conservation {.test}
 
-My work focuses on the conservation of African-Eurasian migratory landbirds. The persistent decline in migratory bird populations observed over recent decades highlights the urgent need to improve our scientific understanding of the factors driving this trend. This understanding is essential support international conservation policies at national, European, and inter-continental levels. My research employs a diverse range of methodologies, including:
+##### PhD candidate  {.test}
 
--   Analyzing **tracking data** from terrestrial long-distance migrants, such as storks, raptors, and landbirds.
+\
+My current work focuses on the conservation of African-Eurasian migratory landbirds. The persistent decline in migratory bird populations observed over recent decades highlights the urgent need to improve our scientific understanding of the factors driving this trend.\
+My research employs a diverse range of methodologies, including:
 
--   **Modelling** recent changes in migratory bird communities and projecting future trends in the context of climate change.
+-   Analyzing **tracking data** from long-distance terrestrial migrants, including storks, raptors, and landbirds, to evaluate their exposure to different  threats throughout their migratory cycle.
 
--   Use of empirical data from **ringing datasets** to better understand migratory bird population dynamics.
+-   **Modelling** recent changes in migratory bird communities and projecting future trends in the context of global anthropogenic change.
 
-Centre d'Ecologie Fonctionnelle et Evolutive\
-Montpellier, France
+

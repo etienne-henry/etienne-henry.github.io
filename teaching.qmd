@@ -10,24 +10,22 @@ This facet holds special significance for me as I seek to balance my career betw
 
 ### Behavioral ecology
 
-*1st and 2nd year bachelor students*
+*1^st^ and 3^rd^ year bachelor students*
 
-Practical classes: \
- - Use of software BORIS and hierarchy calculation\
+Practical classes:\
+- Use of software BORIS and hierarchy calculation\
 Lecture:\
-- Social behaviour
+- Social behaviour: Costs and benefits of group living, social behaviour evolution and evolutionary paradox
 
 ### Ecosystem functioning
 
-*3rd year bachelor students*
+*3^rd^ year bachelor students, Practical classes*
 
-Practical classes: - Primary production, decomposition of organic matter, herbivory
+-   Primary production, decomposition of organic matter, herbivory
 
 ### Evolution
 
-*2nd year bachelor students*
-
-Tutorial classes
+*2^nd^year bachelor students, tutorial classes*
 
 Introduction to evolutionary concepts:\
 - **Micro-evolution**: heritability, forces of evolution (haploids and diploids)\
@@ -37,7 +35,7 @@ Introduction to evolutionary concepts:\
 
 *2nd year master students*
 
-Projects conception, budgetization, presentation in front of territorial actors
+Project design on environmental issues
 
 ### Agrégation preparatory classes
 
@@ -55,11 +53,20 @@ Oral exam preparation: *Living organisms in the soil*
 
 -   Data analysis (ANOSIM)
 
+### Tutoring & Interventions in schools
 
-### Interventions in school & Tutoring
+Tutoring: 
 
--   Preparation for high school national examination (Baccalauréat) in Physics and Mathematics
+-   Preparation for national high school exam (Baccalauréat) in physics, chemistry and mathematics
 
--   Presentation of research project, curses
+School interventions: 
 
--   Teaching the tidal ecosystem
+-   Presentation of research projects, methodologies, and discussion of the academic path to research.
+
+-   Field excursions and presentation of the tidal ecosystem
+
+::: {layout-ncol="2"}
+![](figures/photo_lycee_normandie2.jpg){height="200"}
+
+![](figures/photo_maree.jpg){height="200"}
+:::

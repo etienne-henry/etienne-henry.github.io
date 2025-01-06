@@ -4,60 +4,82 @@ title: "Research"
 theme: #Sandstone #https://bootswatch.com/
   light: flatly
   dark: darkly
-
+  
+css: styles.css
 ---
 
 ## PhD outline
 
-**Supervisors**: [Ana Rodrigues](https://www.cefe.cnrs.fr/fr/recherche/bc/dpb/862-c/228-ana-rodrigues) (CEFE - CNRS, Montpellier) & [Inês Catry](https://cibio.up.pt/en/people/details/ines-catry/) (CIBIO - University of Porto).\
-Project in collaboration with [BirdLife International](https://www.birdlife.org/).
+My PhD research focuses on the conservation of African-Eurasian migratory terrestrial birds. I am based in the [CEFE](https://www.cefe.cnrs.fr/en/), Montpellier, France. The project is supervised by [Ana Rodrigues](https://www.cefe.cnrs.fr/fr/recherche/bc/dpb/862-c/228-ana-rodrigues) (CEFE - CNRS, Montpellier) & [Inês Catry](https://cibio.up.pt/en/people/details/ines-catry/) (CIBIO - University of Porto) and in collaboration with [BirdLife International](https://www.birdlife.org/), England.
 
-The project results from collaboration between the CEFE, the [CIBIO](https://cibio.up.pt/en/) and [BirdLife International](https://www.birdlife.org/).
+The project aims to address the 3 following questions:
 
-My PhD research project aims to address the 3 following questions:
+##### 1. What are the drivers behind the decline of African-Eurasian migratory landbird populations?
 
-1.  What are the drivers behind the decline of African-Eurasian migratory landbird populations?
-
-The decline in African-Eurasian migrant populations [@vickery_conservation_2023], may result from cumulative exposure to various spatially and temporally distinct threats [@buchan_spatially_2022]. Consequently, a decline observed in any given population may reflect stress factors from the breeding grounds (e.g. agricultural intensification [@rigal_farmland_2023]) or be indicative of threats faced by the birds in other regions and at a different time (e.g. hunting during migration [@brochet_preliminary_2016] or extreme climate conditions in the non-breeding grounds [@preston-allen_geography_2023]).\
-Advances in tracking technologies allowed unprecedented insights on the annual cycle, connectivity patterns, and migratory strategies of many African-Eurasian migratory birds [@hewson_population_2016]. Combining tracking data from multiple populations and species can allows us to contrast individuals, species and populations in terms of their exposure to different threats.
-
-This PhD project draws on a dataset covering the movements of thousands of individuals spanning 45 African-Eurasian migratory species. This dataset is the result of the collaboration of more than 172 contributors and the invaluable work of **João Guilherme**, who compiled and standardised all the different tracking data @fig-track.
-
-:::: {layout="[ 40, 60 ]"}
-
-::: {#first-column}
-```r
-# Some code
-print("Hello World")
-```
-
-Some text that should be displayed below the code.
+::::: {layout-ncol="2"}
+::: {.column width="70%"}
+The decline in African-Eurasian migrant populations [@vickery_conservation_2023] may result from cumulative exposure to various spatially and temporally distinct threats [@buchan_spatially_2022]. Consequently, a decline observed in any given population may reflect stress factors from the breeding grounds (e.g. agricultural intensification [@rigal_farmland_2023]) or be indicative of threats faced by the birds in other regions and at a different time (e.g. hunting during migration [@brochet_preliminary_2016] or extreme climate conditions in the non-breeding grounds [@preston-allen_geography_2023]).
+ 
+Advances in tracking technologies allowed unprecedented insights on the annual cycle [@bridge_technology_2011], connectivity patterns, and migratory strategies [@hewson_population_2016] of many African-Eurasian migratory birds. Combining tracking data from multiple populations and species can allows us to contrast individuals, species and populations in terms of their exposure to different threats, e.g, GPS track from German and X storks @fig-track.
 :::
 
-::: {#second-column #fig-track}
-![](figures/map_track.html){height=5in}
+::: {#fig-track}
+![](figures/map_track.html){height="5in"}
 
-Track of 3 white storks during their annual migration, color = individuals, points randomly sub-sampled to 1 point per day to ease computation. Source: [], code to plot the map available on [Github](https://www.birdlife.org/) 
+Tracks of three White Storks (*Ciconia ciconia*) during their annual migration. Each color represents an individual, with data points sub-sampled to one per day for computational efficiency. Source: [@rotics_2018]. Code for plotting the map is available on [Github](https://github.com/etienne-henry/etienne-henry.github.io/blob/main/code/gps_tracks.R).
+:::
+:::::
+
+::::: {layout-ncol="2"}
+::: {#fig-roller}
+![](figures/rollier.jpg){width="2.5in"}
+
+European Roller (*Coracias garrulus*) captured during its breeding season in Portugal (May 2024). Tracking devices revealed that these individuals migrate to southern Africa for the non-breeding season [@catry_unravelling_2014].
 :::
 
-::::
+::: {.column width="0%"}
+This PhD project draws on a unique dataset covering the movements of thousands of individuals from 45 African-Eurasian migratory bird species, spanning a wide range of body sizes (from small warblers to large storks) and ecological groups, including passerines, near-passerines, storks, and raptors. This dataset is the result of the collaboration of more than 172 contributors and the invaluable work of [João Guilherme](https://4vultures.org/about-us/meet-the-team/joao-guilherme/) who compiled and standardised all the different tracking data [@guilherme_informing_2022].
+:::
+:::::
 
+##### 2. How are migration patterns along the African-Eurasian flyway predicted to change in response to ongoing threats (climate change and land-use change)?
 
-2.  How are migration patterns along the African-Eurasian flyway predicted to change in response to ongoing threats (climate change, land-use change...)?
+This analysis will combine scenarios of future change with macro-ecological models of bird migration to predict the response of bird migration patterns across the African-Eurasian flyway to anthropogenic change. Specifically, it will rely on the Optimal Redistribution Simulator (ORSIM), a mechanistic model developed by Somveille et al. [@somveille_general_2021]. The ORSIM is a mechanistic model that simulates an optimal redistribution of individuals between breeding and wintering areas building from first ecological (i.e., competition) and energetic principles and we will use it to explore how the African-Eurasian migratory system will respond to the general predicted large-scale changes in climate first, then landuse. In particular, it will explore spatio-temporal changes in migratory distances in context of global changes. Using this model, we aim to assess the impacts of large-scale climate change and land-use changes on the African-Eurasian migratory system, with a particular focus on spatio-temporal shifts in migratory distances.
 
-In collaboration with Marius Somveille.
+##### 3. What are the priority actions for the conservation of African-Eurasian migratory landbirds at the flyway scale?
 
-3.  Let's see how it gows
-
-Supervisors: Ana Rodrigues (CEFE - CNRS, Montpellier) & Inês Catry (CIBIO - University of Porto). Project in collaboration with BirdLife International.
-
-# Previous research
-
--   2nd year Master’s thesis: Modeling the probability of meeting IUCN Red List criteria to support reassessmentsUnder the supervision of Victor Cazalis (iDiv, Germany), Moreno Di Marco & Luca Santini (Sapienza University)
--   1st year Master thesis: Map the transfer of knowledge through citizen sciences: case study of amphibians on iNaturalist Under the supervision of Ana Rodrigues & Marie-Morgane Rouyer (CEFE, Montepellier)
+This final part will draw from the previous results to, first, identify populations or species of Afro-Eurasian migratory birds that are most at risk from ongoing as well as future change; and, second, to explore scenarios via the ORSIM model to test whether targeted conservation intervention (e.g., habitat protection, restrictions to hunting) can have a disproportionately positive effect on the conservation prospects of these species. We will use these results to inform international cooperation efforts under the United Nations Convention on the Conservation of Migratory Species of Wild Animals (CMS, 1979), specifically its daughter agreements that promote international coordination and guide decision-makers along the African-Eurasian flyway: the The African-Eurasian Migratory Landbirds Action Plan (AEMLAP) and the Memorandum of Understanding on the Conservation of Migratory Birds of Prey in Africa and Eurasia (Raptors MOU),
 
 # Publication(s)
 
-# Outcomes
+1.  **Henry, E. G.**, Santini, L., Butchart, S. H. M., González-Suárez, M., Lucas, P. M., Benítez-López, A., Mancini, G., Jung, M., Cardoso, P., Zizka, A., Meyer, C., Akçakaya, H. R., Berryman, A. J., Cazalis, V., & Di Marco, M. (2024). Modelling the probability of meeting IUCN Red List criteria to support reassessments. *Global Change Biology*, 30, e17119. <https://doi.org/10.1111/gcb.17119>
 
-Talks:
+```{=html}
+<a href="files/GCB_2024.pdf">(PDF)</a></p>
+</object>
+```
+
+# Previous projects
+
+-   Few words to describe\
+    2^nd^ year Master’s thesis:\
+    *Modeling the probability of meeting IUCN Red List criteria to support reassessments*\
+    Under the supervision of Victor Cazalis (former iDiv, Germany), Moreno Di Marco & Luca Santini (Sapienza University, Italy), and in collaboration with all the [sRedList](https://idiv-biodiversity.de/en/sredlist) working group. \\\\\
+-   Few words to describe\
+    1^st^ year Master's thesis:\
+    *Map the transfer of knowledge through citizen sciences: case study of amphibians on [iNaturalist](https://www.inaturalist.org/)*\
+    Under the supervision of Ana Rodrigues & Marie-Morgane Rouyer (CEFE, Montpellier)
+
+# Scientific outcomes
+
+##### Talks
+
+-   **2025** Student Conference on Conservation Science, [SCCS 2025](https://www.sccs-cam.org/), Cambridge, England
+-   **2024** French Society of Ecology and Evolution biennial meeting, [SFE2 2024](https://sfe2-2024.fr/en), Lyon, France
+-   **2022** [sRedList seminar](https://idiv-biodiversity.de/en/sredlist), Leipzig, Germany
+-   **2021** British Ecological Society annual meeting, [EAB2021](https://www.britishecologicalsociety.org/events/ecology-across-borders-2021/), Liverpool, England
+-   **2021** [Pollinéco Research Group](https://pollineco.org/) Meeting, National Museum of Natural History, Paris, France
+
+##### Poster
+
+-   **2021,** **Henry, E.G.**, Rouyer M.M., Rodrigues A.S.L.. *Mapping the global transfer of biodiversity knowledge through citizen sciences*, Student Conference on Conservation Science, Cambridge, England\

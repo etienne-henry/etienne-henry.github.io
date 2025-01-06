@@ -14,9 +14,9 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
     toc: true
 
 editor: visual
 
 bibliography: references/refs.bib
+csl: references/acta-naturae.csl #https://www.zotero.org/styles?fields=biology&format=numeric

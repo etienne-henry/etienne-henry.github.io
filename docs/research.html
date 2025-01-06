@@ -20,45 +20,10 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -174,9 +139,9 @@ div.csl-indent {
    
   <ul>
   <li><a href="#phd-outline" id="toc-phd-outline" class="nav-link active" data-scroll-target="#phd-outline">PhD outline</a></li>
-  <li><a href="#previous-research" id="toc-previous-research" class="nav-link" data-scroll-target="#previous-research">Previous research</a></li>
   <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publication(s)</a></li>
-  <li><a href="#outcomes" id="toc-outcomes" class="nav-link" data-scroll-target="#outcomes">Outcomes</a></li>
+  <li><a href="#previous-projects" id="toc-previous-projects" class="nav-link" data-scroll-target="#previous-projects">Previous projects</a></li>
+  <li><a href="#scientific-outcomes" id="toc-scientific-outcomes" class="nav-link" data-scroll-target="#scientific-outcomes">Scientific outcomes</a></li>
   </ul>
 </nav>
     </div>
@@ -204,85 +169,144 @@ div.csl-indent {
 
 <section id="phd-outline" class="level2">
 <h2 class="anchored" data-anchor-id="phd-outline">PhD outline</h2>
-<p><strong>Supervisors</strong>: <a href="https://www.cefe.cnrs.fr/fr/recherche/bc/dpb/862-c/228-ana-rodrigues">Ana Rodrigues</a> (CEFE - CNRS, Montpellier) &amp; <a href="https://cibio.up.pt/en/people/details/ines-catry/">Inês Catry</a> (CIBIO - University of Porto).<br>
-Project in collaboration with <a href="https://www.birdlife.org/">BirdLife International</a>.</p>
-<p>The project results from collaboration between the CEFE, the <a href="https://cibio.up.pt/en/">CIBIO</a> and <a href="https://www.birdlife.org/">BirdLife International</a>.</p>
-<p>My PhD research project aims to address the 3 following questions:</p>
-<ol type="1">
-<li>What are the drivers behind the decline of African-Eurasian migratory landbird populations?</li>
-</ol>
-<p>The decline in African-Eurasian migrant populations <span class="citation" data-cites="vickery_conservation_2023">(<a href="#ref-vickery_conservation_2023" role="doc-biblioref">Vickery et al. 2023</a>)</span>, may result from cumulative exposure to various spatially and temporally distinct threats <span class="citation" data-cites="buchan_spatially_2022">(<a href="#ref-buchan_spatially_2022" role="doc-biblioref">Buchan et al. 2022</a>)</span>. Consequently, a decline observed in any given population may reflect stress factors from the breeding grounds (e.g.&nbsp;agricultural intensification <span class="citation" data-cites="rigal_farmland_2023">(<a href="#ref-rigal_farmland_2023" role="doc-biblioref">Rigal et al. 2023</a>)</span>) or be indicative of threats faced by the birds in other regions and at a different time (e.g.&nbsp;hunting during migration <span class="citation" data-cites="brochet_preliminary_2016">(<a href="#ref-brochet_preliminary_2016" role="doc-biblioref">Brochet et al. 2016</a>)</span> or extreme climate conditions in the non-breeding grounds <span class="citation" data-cites="preston-allen_geography_2023">(<a href="#ref-preston-allen_geography_2023" role="doc-biblioref">Preston-Allen et al. 2023</a>)</span>).<br>
-Advances in tracking technologies allowed unprecedented insights on the annual cycle, connectivity patterns, and migratory strategies of many African-Eurasian migratory birds <span class="citation" data-cites="hewson_population_2016">(<a href="#ref-hewson_population_2016" role="doc-biblioref">Hewson et al. 2016</a>)</span>. Combining tracking data from multiple populations and species can allows us to contrast individuals, species and populations in terms of their exposure to different threats.</p>
-<p>This PhD project draws on a dataset covering the movements of thousands of individuals spanning 45 African-Eurasian migratory species. This dataset is the result of the collaboration of more than 172 contributors and the invaluable work of <strong>João Guilherme</strong>, who compiled and standardised all the different tracking data <a href="#fig-track" class="quarto-xref">Figure&nbsp;1</a>.</p>
+<p>My PhD research focuses on the conservation of African-Eurasian migratory terrestrial birds. I am based in the <a href="https://www.cefe.cnrs.fr/en/">CEFE</a>, Montpellier and supervised by <a href="https://www.cefe.cnrs.fr/fr/recherche/bc/dpb/862-c/228-ana-rodrigues">Ana Rodrigues</a> (CEFE - CNRS, Montpellier) &amp; <a href="https://cibio.up.pt/en/people/details/ines-catry/">Inês Catry</a> (CIBIO - University of Porto and in collaboration with <a href="https://www.birdlife.org/">BirdLife International</a>.</p>
+<p>The project aims to address the 3 following questions:</p>
+<section id="what-are-the-drivers-behind-the-decline-of-african-eurasian-migratory-landbird-populations" class="level5">
+<h5 class="anchored" data-anchor-id="what-are-the-drivers-behind-the-decline-of-african-eurasian-migratory-landbird-populations">1. What are the drivers behind the decline of African-Eurasian migratory landbird populations?</h5>
 <div>
 
 </div>
-<div class="quarto-layout-panel" data-layout="[ 40, 60 ]">
+<div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
-<div id="first-column" class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: flex-start;">
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Some code</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="st">"Hello World"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Some text that should be displayed below the code.</p>
+<div class="column quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>The decline in African-Eurasian migrant populations <span class="citation" data-cites="vickery_conservation_2023">[<a href="#ref-vickery_conservation_2023" role="doc-biblioref">1</a>]</span> may result from cumulative exposure to various spatially and temporally distinct threats <span class="citation" data-cites="buchan_spatially_2022">[<a href="#ref-buchan_spatially_2022" role="doc-biblioref">2</a>]</span>. Consequently, a decline observed in any given population may reflect stress factors from the breeding grounds (e.g.&nbsp;agricultural intensification <span class="citation" data-cites="rigal_farmland_2023">[<a href="#ref-rigal_farmland_2023" role="doc-biblioref">3</a>]</span>) or be indicative of threats faced by the birds in other regions and at a different time (e.g.&nbsp;hunting during migration <span class="citation" data-cites="brochet_preliminary_2016">[<a href="#ref-brochet_preliminary_2016" role="doc-biblioref">4</a>]</span> or extreme climate conditions in the non-breeding grounds <span class="citation" data-cites="preston-allen_geography_2023">[<a href="#ref-preston-allen_geography_2023" role="doc-biblioref">5</a>]</span>).</p>
+<p>Advances in tracking technologies allowed unprecedented insights on the annual cycle <span class="citation" data-cites="bridge_technology_2011">[<a href="#ref-bridge_technology_2011" role="doc-biblioref">6</a>]</span>, connectivity patterns, and migratory strategies <span class="citation" data-cites="hewson_population_2016">[<a href="#ref-hewson_population_2016" role="doc-biblioref">7</a>]</span> of many African-Eurasian migratory birds. Combining tracking data from multiple populations and species can allows us to contrast individuals, species and populations in terms of their exposure to different threats, e.g, GPS track from German and X storks <a href="#fig-track" class="quarto-xref">Figure&nbsp;1</a>.</p>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div id="fig-track" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-track-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <embed src="figures/map_track.html" style="height:5in">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-track-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Track of 3 white storks during their annual migration, color = individuals, points randomly sub-sampled to 1 point per day to ease computation. Source: [], code to plot the map available on <a href="https://www.birdlife.org/">Github</a>
+Figure&nbsp;1: Tracks of three White Storks (<em>Ciconia ciconia</em>) during their annual migration. Each color represents an individual, with data points sub-sampled to one per day for computational efficiency. Source: <span class="citation" data-cites="rotics_2018">[<a href="#ref-rotics_2018" role="doc-biblioref">8</a>]</span>. Code for plotting the map is available on <a href="https://github.com/etienne-henry/etienne-henry.github.io/blob/main/code/gps_tracks.R">Github</a>.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<ol start="2" type="1">
-<li>How are migration patterns along the African-Eurasian flyway predicted to change in response to ongoing threats (climate change, land-use change…)?</li>
-</ol>
-<p>In collaboration with Marius Somveille.</p>
-<ol start="3" type="1">
-<li>Let’s see how it gows</li>
-</ol>
-<p>Supervisors: Ana Rodrigues (CEFE - CNRS, Montpellier) &amp; Inês Catry (CIBIO - University of Porto). Project in collaboration with BirdLife International.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-roller" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-roller-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/rollier.jpg" class="img-fluid figure-img" style="width:2.5in">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-roller-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: European Roller (<em>Coracias garrulus</em>) captured during its breeding season in Portugal (May 2024). Tracking devices revealed that these individuals migrate to southern Africa for the non-breeding season <span class="citation" data-cites="catry_unravelling_2014">[<a href="#ref-catry_unravelling_2014" role="doc-biblioref">9</a>]</span>.
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="column quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>This PhD project draws on a unique dataset covering the movements of thousands of individuals from 45 African-Eurasian migratory bird species, spanning a wide range of body sizes (from small warblers to large storks) and ecological groups, including passerines, near-passerines, storks, and raptors. This dataset is the result of the collaboration of more than 172 contributors and the invaluable work of <a href="https://4vultures.org/about-us/meet-the-team/joao-guilherme/">João Guilherme</a> who compiled and standardised all the different tracking data <span class="citation" data-cites="guilherme_informing_2022">[<a href="#ref-guilherme_informing_2022" role="doc-biblioref">10</a>]</span>.</p>
+</div>
+</div>
+</div>
 </section>
-<section id="previous-research" class="level1">
-<h1>Previous research</h1>
-<ul>
-<li>2nd year Master’s thesis: Modeling the probability of meeting IUCN Red List criteria to support reassessmentsUnder the supervision of Victor Cazalis (iDiv, Germany), Moreno Di Marco &amp; Luca Santini (Sapienza University)</li>
-<li>1st year Master thesis: Map the transfer of knowledge through citizen sciences: case study of amphibians on iNaturalist Under the supervision of Ana Rodrigues &amp; Marie-Morgane Rouyer (CEFE, Montepellier)</li>
-</ul>
+<section id="how-are-migration-patterns-along-the-african-eurasian-flyway-predicted-to-change-in-response-to-ongoing-threats-climate-change-and-land-use-change" class="level5">
+<h5 class="anchored" data-anchor-id="how-are-migration-patterns-along-the-african-eurasian-flyway-predicted-to-change-in-response-to-ongoing-threats-climate-change-and-land-use-change">2. How are migration patterns along the African-Eurasian flyway predicted to change in response to ongoing threats (climate change and land-use change)?</h5>
+<p>This analysis will combine scenarios of future change with macro-ecological models of bird migration to predict the response of bird migration patterns across the African-Eurasian flyway to anthropogenic change. Specifically, it will rely on the Optimal Redistribution Simulator (ORSIM), a mechanistic model developed by Somveille et al. <span class="citation" data-cites="somveille_general_2021">[<a href="#ref-somveille_general_2021" role="doc-biblioref">11</a>]</span>. The ORSIM is a mechanistic model that simulates an optimal redistribution of individuals between breeding and wintering areas building from first ecological (i.e., competition) and energetic principles and we will use it to explore how the African-Eurasian migratory system will respond to the general predicted large-scale changes in climate first, then landuse. In particular, it will explore spatio-temporal changes in migratory distances in context of global changes. Using this model, we aim to assess the impacts of large-scale climate change and land-use changes on the African-Eurasian migratory system, with a particular focus on spatio-temporal shifts in migratory distances.</p>
+</section>
+<section id="what-are-the-priority-actions-for-the-conservation-of-african-eurasian-migratory-landbirds-at-the-flyway-scale" class="level5">
+<h5 class="anchored" data-anchor-id="what-are-the-priority-actions-for-the-conservation-of-african-eurasian-migratory-landbirds-at-the-flyway-scale">3. What are the priority actions for the conservation of African-Eurasian migratory landbirds at the flyway scale?</h5>
+<p>This final part will draw from the previous results to, first, identify populations or species of Afro-Eurasian migratory birds that are most at risk from ongoing as well as future change; and, second, to explore scenarios via the ORSIM model to test whether targeted conservation intervention (e.g., habitat protection, restrictions to hunting) can have a disproportionately positive effect on the conservation prospects of these species. We will use these results to inform international cooperation efforts under the United Nations Convention on the Conservation of Migratory Species of Wild Animals (CMS, 1979), specifically its daughter agreements that promote international coordination and guide decision-makers along the African-Eurasian flyway: the The African-Eurasian Migratory Landbirds Action Plan (AEMLAP) and the Memorandum of Understanding on the Conservation of Migratory Birds of Prey in Africa and Eurasia (Raptors MOU),</p>
+</section>
 </section>
 <section id="publications" class="level1">
 <h1>Publication(s)</h1>
-</section>
-<section id="outcomes" class="level1">
-<h1>Outcomes</h1>
-<p>Talks:</p>
-
-
+<ol type="1">
+<li><strong>Henry, E. G.</strong>, Santini, L., Butchart, S. H. M., González-Suárez, M., Lucas, P. M., Benítez-López, A., Mancini, G., Jung, M., Cardoso, P., Zizka, A., Meyer, C., Akçakaya, H. R., Berryman, A. J., Cazalis, V., &amp; Di Marco, M. (2024). Modelling the probability of meeting IUCN Red List criteria to support reassessments. <em>Global Change Biology</em>, 30, e17119. <a href="https://doi.org/10.1111/gcb.17119" class="uri">https://doi.org/10.1111/gcb.17119</a></li>
+</ol>
+<a href="files/GCB_2024.pdf">(PDF)</a><p></p>
 
 </section>
+<section id="previous-projects" class="level1">
+<h1>Previous projects</h1>
+<ul>
+<li>Few words to describe<br>
+2<sup>nd</sup> year Master’s thesis:<br>
+<em>Modeling the probability of meeting IUCN Red List criteria to support reassessments</em><br>
+Under the supervision of Victor Cazalis (former iDiv, Germany), Moreno Di Marco &amp; Luca Santini (Sapienza University, Italy), and in collaboration with all the <a href="https://idiv-biodiversity.de/en/sredlist">sRedList</a> working group. \\<br>
+</li>
+<li>Few words to describe<br>
+1<sup>st</sup> year Master’s thesis:<br>
+<em>Map the transfer of knowledge through citizen sciences: case study of amphibians on <a href="https://www.inaturalist.org/">iNaturalist</a></em><br>
+Under the supervision of Ana Rodrigues &amp; Marie-Morgane Rouyer (CEFE, Montpellier)</li>
+</ul>
+</section>
+<section id="scientific-outcomes" class="level1">
+<h1>Scientific outcomes</h1>
+<section id="talks" class="level5">
+<h5 class="anchored" data-anchor-id="talks">Talks</h5>
+<ul>
+<li><strong>2025</strong> Student Conference on Conservation Science, <a href="https://www.sccs-cam.org/">SCCS 2025</a>, Cambridge, England</li>
+<li><strong>2024</strong> French Society of Ecology and Evolution biennial meeting, <a href="https://sfe2-2024.fr/en">SFE2 2024</a>, Lyon, France</li>
+<li><strong>2022</strong> <a href="https://idiv-biodiversity.de/en/sredlist">sRedList seminar</a>, Leipzig, Germany</li>
+<li><strong>2021</strong> British Ecological Society annual meeting, <a href="https://www.britishecologicalsociety.org/events/ecology-across-borders-2021/">EAB2021</a>, Liverpool, England</li>
+<li><strong>2021</strong> <a href="https://pollineco.org/">Pollinéco Research Group</a> Meeting, National Museum of Natural History, Paris, France</li>
+</ul>
+</section>
+<section id="poster" class="level5">
+<h5 class="anchored" data-anchor-id="poster">Poster</h5>
+<ul>
+<li><strong>2021,</strong> <strong>Henry, E.G.</strong>, Rouyer M.M., Rodrigues A.S.L.. <em>Mapping the global transfer of biodiversity knowledge through citizen sciences</em>, Student Conference on Conservation Science, Cambridge, England<br>
+</li>
+</ul>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-brochet_preliminary_2016" class="csl-entry" role="listitem">
-Brochet, Anne-Laure, Willem Van Den Bossche, Sharif Jbour, P. Kariuki Ndang’ang’a, Victoria R. Jones, Wed Abdel Latif Ibrahim Abdou, Abdel Razzaq Al-Hmoud, et al. 2016. <span>“Preliminary Assessment of the Scope and Scale of Illegal Killing and Taking of Birds in the <span>Mediterranean</span>.”</span> <em>Bird Conservation International</em> 26 (1): 1–28. <a href="https://doi.org/10.1017/S0959270915000416">https://doi.org/10.1017/S0959270915000416</a>.
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-vickery_conservation_2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Vickery J.A., Mallord J.W., Adams W.M., Beresford A.E., Both C., Cresswell W., Diop N., Ewing S.R., Gregory R.D., Morrison C.A., et al. // Ibis. 2023. V. 165. № 3. P. 717–738.<a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/ibi.13171">https://onlinelibrary.wiley.com/doi/abs/10.1111/ibi.13171</a>. (Accessed September 5, 2023)</div>
 </div>
 <div id="ref-buchan_spatially_2022" class="csl-entry" role="listitem">
-Buchan, Claire, Aldina M. A. Franco, Inês Catry, Anna Gamero, Alena Klvaňová, and James J. Gilroy. 2022. <span>“Spatially Explicit Risk Mapping Reveals Direct Anthropogenic Impacts on Migratory Birds.”</span> <em>Global Ecology and Biogeography</em> 31 (9): 1707–25. <a href="https://doi.org/10.1111/geb.13551">https://doi.org/10.1111/geb.13551</a>.
-</div>
-<div id="ref-hewson_population_2016" class="csl-entry" role="listitem">
-Hewson, Chris M., Kasper Thorup, James W. Pearce-Higgins, and Philip W. Atkinson. 2016. <span>“Population Decline Is Linked to Migration Route in the <span>Common</span> <span>Cuckoo</span>.”</span> <em>Nature Communications</em> 7 (July): 12296. <a href="https://doi.org/10.1038/ncomms12296">https://doi.org/10.1038/ncomms12296</a>.
-</div>
-<div id="ref-preston-allen_geography_2023" class="csl-entry" role="listitem">
-Preston-Allen, Rhys G. G., Henry Häkkinen, Laura Cañellas-Dols, Eric I. Ameca y Juarez, C. David L. Orme, and Nathalie Pettorelli. 2023. <span>“Geography, Taxonomy, Extinction Risk and Exposure of Fully Migratory Birds to Droughts and Cyclones.”</span> <em>Global Ecology and Biogeography</em> n/a (n/a). <a href="https://doi.org/10.1111/geb.13780">https://doi.org/10.1111/geb.13780</a>.
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Buchan C., Franco A.M.A., Catry I., Gamero A., Klvaňová A., Gilroy J.J. // Global Ecology and Biogeography. 2022. V. 31. № 9. P. 1707–1725.<a href="https://onlinelibrary.wiley.com/doi/10.1111/geb.13551">https://onlinelibrary.wiley.com/doi/10.1111/geb.13551</a>. (Accessed September 5, 2023)</div>
 </div>
 <div id="ref-rigal_farmland_2023" class="csl-entry" role="listitem">
-Rigal, Stanislas, Vasilis Dakos, Hany Alonso, Ainārs Auniņš, Zoltán Benkő, Lluís Brotons, Tomasz Chodkiewicz, et al. 2023. <span>“Farmland Practices Are Driving Bird Population Decline Across <span>Europe</span>.”</span> <em>Proceedings of the National Academy of Sciences</em> 120 (21): e2216573120. <a href="https://doi.org/10.1073/pnas.2216573120">https://doi.org/10.1073/pnas.2216573120</a>.
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Rigal S., Dakos V., Alonso H., Auniņš A., Benkő Z., Brotons L., Chodkiewicz T., Chylarecki P., Carli E. de, Moral J.C. del, et al. // Proceedings of the National Academy of Sciences. 2023. V. 120. № 21. P. e2216573120.<a href="https://www-pnas-org.inee.bib.cnrs.fr/doi/10.1073/pnas.2216573120">https://www-pnas-org.inee.bib.cnrs.fr/doi/10.1073/pnas.2216573120</a>. (Accessed December 5, 2023)</div>
 </div>
-<div id="ref-vickery_conservation_2023" class="csl-entry" role="listitem">
-Vickery, Juliet A., John W. Mallord, William M. Adams, Alison E. Beresford, Christiaan Both, Will Cresswell, Ngoné Diop, et al. 2023. <span>“The Conservation of <span>Afro</span>-<span>Palaearctic</span> Migrants: <span>What</span> We Are Learning and What We Need to Know?”</span> <em>Ibis</em> 165 (3): 717–38. <a href="https://doi.org/10.1111/ibi.13171">https://doi.org/10.1111/ibi.13171</a>.
+<div id="ref-brochet_preliminary_2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Brochet A.-L., Bossche W.V.D., Jbour S., Ndang’ang’a P.K., Jones V.R., Abdou W.A.L.I., Hmoud A.R.A.-., Asswad N.G., Atienza J.C., Atrash I., et al. // Bird Conservation International. 2016. V. 26. № 1. P. 1–28.<a href="https://www.cambridge.org/core/journals/bird-conservation-international/article/preliminary-assessment-of-the-scope-and-scale-of-illegal-killing-and-taking-of-birds-in-the-mediterranean/34A06A94874DB94BE2BBACC4F96C3B5F">https://www.cambridge.org/core/journals/bird-conservation-international/article/preliminary-assessment-of-the-scope-and-scale-of-illegal-killing-and-taking-of-birds-in-the-mediterranean/34A06A94874DB94BE2BBACC4F96C3B5F</a>. (Accessed November 24, 2023)</div>
+</div>
+<div id="ref-preston-allen_geography_2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Preston-Allen R.G.G., Häkkinen H., Cañellas-Dols L., Ameca y Juarez E.I., Orme C.D.L., Pettorelli N. // Global Ecology and Biogeography. 2023. V. n/a. № n/a.<a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13780">https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13780</a>. (Accessed December 13, 2023)</div>
+</div>
+<div id="ref-bridge_technology_2011" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Bridge E.S., Thorup K., Bowlin M.S., Chilson P.B., Diehl R.H., Fléron R.W., Hartl P., Kays R., Kelly J.F., Robinson W.D., et al. // BioScience. 2011. V. 61. № 9. P. 689–698.<a href="https://doi.org/10.1525/bio.2011.61.9.7">https://doi.org/10.1525/bio.2011.61.9.7</a>. (Accessed November 27, 2023)</div>
+</div>
+<div id="ref-hewson_population_2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">Hewson C.M., Thorup K., Pearce-Higgins J.W., Atkinson P.W. // Nature Communications. 2016. V. 7. P. 12296.<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4960304/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4960304/</a>. (Accessed November 13, 2023)</div>
+</div>
+<div id="ref-rotics_2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">Rotics S., Kaatz M., Turjeman S., Zurell D., Wikelski M., Sapir N., Eggers U., Fiedler W., Jeltsch F., Nathan R. // Journal of Animal Ecology. 2018. V. 87. № 6. P. 1627–1638.<a href="https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2656.12898">https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2656.12898</a></div>
+</div>
+<div id="ref-catry_unravelling_2014" class="csl-entry" role="listitem">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline">Catry I., Catry T., Granadeiro J.P., Franco A.M.A., Moreira F. // Journal of Ornithology. 2014. V. 155. № 4. P. 1071–1075.<a href="https://doi.org/10.1007/s10336-014-1097-x">https://doi.org/10.1007/s10336-014-1097-x</a>. (Accessed January 6, 2025)</div>
+</div>
+<div id="ref-guilherme_informing_2022" class="csl-entry" role="listitem">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline">Guilherme J.L. Informing conservation of <span>African</span>-<span>Eurasian</span> migratory landbirds, raptors and storks using tracking data. [These de doctorat]. // Université de Montpellier (2022-....). 2022 (Accessed June 2, 2023).<a href="https://www.theses.fr/2022UMONG055">https://www.theses.fr/2022UMONG055</a>. (Accessed June 2, 2023)</div>
+</div>
+<div id="ref-somveille_general_2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline">Somveille M., Bay R.A., Smith T.B., Marra P.P., Ruegg K.C. // Ecology Letters. 2021. V. 24. № 9. P. 1848–1858.<a href="https://onlinelibrary.wiley.com/doi/10.1111/ele.13817">https://onlinelibrary.wiley.com/doi/10.1111/ele.13817</a>. (Accessed September 5, 2023)</div>
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
